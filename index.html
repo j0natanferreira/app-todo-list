@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Tarefas</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="titulo">
+            <h1>Lista de Tarefas</h1>
+          </div>
+          <div class="input">
+            <input type="text" id="inputTarefa"/>
+            <button id="btnEnviar"><i class="fa-solid fa-paper-plane"></i></button>
+          </div>
+      </header>
+      <main>
+        <ul class="tarefas">
+
+        </ul>
+      </main>
+
+      <footer class="footer">
+        <span>
+            <b>Total de Tarefas: </b>
+            <span id="totalTarefas"> 0</span>
+        </span>
+        <span>
+            <b>Tarefas Concluidas: </b>
+            <span id="concluidas"> 0</span>
+        </span>
+      </footer>
+    </div>
+    <script src="assets/script.js"></script>
+  </body>
+</html>

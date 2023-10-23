@@ -1,0 +1,134 @@
+* {margin: 0; padding: 0;box-sizing: border-box;}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #202124;
+    font-family: helvetica;
+}
+
+.container {
+    width: 40%;
+    height: 100%;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 15%;
+    padding: 40px 0 0 0 ;
+}
+
+header .titulo h1{
+    color: #B64FC8;
+}
+
+header .input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+}
+
+header .input input {
+    background-color: #202124;
+    border: 1px solid #B64FC8;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    padding-left: 20px;
+    font-size: 16px;
+    margin: 0 -40px 0 -20px;
+    outline: none;
+}
+
+header .input button {
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: #B64FC8;
+    cursor: pointer;
+}
+
+header .input button:hover {
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    height: 70%;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 100%;
+}
+
+li{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40px;
+    background-color: #B64FC8;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 0 10px;
+}
+
+li input{
+    width: 5%;
+}
+
+li span {
+    flex: 1;
+    color: #202124;
+}
+
+li button{
+    width: 5%;
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+
+li button:hover {
+    color: #fff;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color:#B64FC8;
+    border-radius: 10px;
+}
+
+footer span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #fff;
+    height: 40px;
+    padding: 0 20px;
+}
+
+footer span b{
+    color: #fff;
+}
