@@ -132,3 +132,9 @@ footer span {
 footer span b{
     color: #fff;
 }
+
+@media only screen and (max-width: 768px) { 
+	.container {
+        width: 90%;
+    }
+}
